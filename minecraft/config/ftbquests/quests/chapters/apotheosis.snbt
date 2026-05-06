@@ -1,0 +1,61 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: "7C7CD77229185278"
+	id: "2651553FB84D4B25"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "148CCDA679701667"
+			tasks: [{
+				id: "4200987DE182F17D"
+				item: { count: 1, id: "apotheosis:gem_dust" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "2474E21054F82CA9"
+			tasks: [{
+				id: "0360A95D5A67FA05"
+				item: { count: 1, id: "apotheosis:uncommon_material" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "31E48D1D15CDA9EE"
+			tasks: [{
+				id: "4CA9D91C23EE233E"
+				item: { count: 1, id: "apotheosis:rare_material" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7A63443AD66C8BDF"
+			tasks: [{
+				id: "3F24D604E84A3955"
+				item: { count: 1, id: "apotheosis:epic_material" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "3102CC4B510DDE01"
+			tasks: [{
+				id: "0E37988A5CBFEEA7"
+				item: { count: 1, id: "apotheosis:mythic_material" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+	]
+}
