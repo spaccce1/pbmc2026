@@ -1,0 +1,34 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:frozen_ocean": "2026-05-05 23:27:06 +0200",
+      "minecraft:beach": "2026-05-05 20:32:00 +0200",
+      "minecraft:forest": "2026-05-05 23:26:59 +0200",
+      "minecraft:river": "2026-05-05 20:32:23 +0200",
+      "minecraft:snowy_plains": "2026-05-05 23:27:27 +0200",
+      "minecraft:snowy_taiga": "2026-05-05 23:27:04 +0200",
+      "minecraft:snowy_beach": "2026-05-05 23:55:18 +0200",
+      "minecraft:plains": "2026-05-05 20:30:49 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-05-05 20:30:50 +0200"
+    },
+    "done": true
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2026-05-05 20:30:50 +0200"
+    },
+    "done": true
+  },
+  "apotheosis:progression/root": {
+    "criteria": {
+      "tick": "2026-05-05 20:30:50 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}

@@ -1,0 +1,8 @@
+#47F minecraft:birch_forest
+#460 minecraft:cherry_grove
+#4CA minecraft:dripstone_caves
+#010 minecraft:forest
+#1DF minecraft:old_growth_birch_forest
+#3DC minecraft:plains
+#5FF minecraft:river
+#774 minecraft:sunflower_plains

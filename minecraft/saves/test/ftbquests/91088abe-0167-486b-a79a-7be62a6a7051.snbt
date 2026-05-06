@@ -1,0 +1,18 @@
+{
+	version: 1
+	uuid: "91088abe0167486ba79a7be62a6a7051"
+	name: "Pink_Evil#91088abe"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	repeatable: { }
+	completion_count: { }
+	claimed_rewards: { }
+	player_data: {
+		91088abe0167486ba79a7be62a6a7051: {
+			can_edit: 1b
+		}
+	}
+}

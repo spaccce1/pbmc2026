@@ -1,0 +1,50 @@
+/ftbquests reload
+/ftbquests change_progress Pink_Evil complete 77AE849A9C802E20
+/ftbteams party create team_to_test_stuff:D
+/title @p[distance=100] title "the BIG ONE"
+/title Pink_Evil title "the BIG ONE"
+/apoth spawn_boss ~ ~ ~ apotheosis:overworld/bogged
+/relics maximize
+/apoth set_world_tier Pink_Evil pinnacle
+/apoth spawn_boss ~ ~ ~
+/enchant @s minecraft:sharpness 5\
+/enchant @s minecraft:sharpness 5
+/apoth spawn_boss ~ ~ ~
+/effect give @s minecraft:strength infinite 255
+/apoth spawn_boss ~ ~ ~
+/effect give @s minecraft:strength infinite 255
+/apoth spawn_boss ~ ~ ~
+/apoth set_world_tier Pink_Evil haven
+/rtp
+/loot give Pink_Evil loot minecraft:chests/simple_dungeon
+/reload
+/loot give Pink_Evil loot minecraft:chests/simple_dungeon
+/reload
+/loot give Pink_Evil loot minecraft:chests/simple_dungeon
+/reload
+/apoth set_world_tier Pink_Evil frontier
+/apoth set_world_tier Pink_Evil ascent
+/apoth set_world_tier Pink_Evil summit
+/apoth set_world_tier Pink_Evil frontier
+/apoth set_world_tier Pink_Evil ascent
+/reload
+/mahouset caliburn Pink_Evil 1000
+/mahouset morgan Pink_Evil 1000
+/mahouset morgancap Pink_Evil 1000
+/mahouset morgan Pink_Evil 1000
+/mahouset souls Pink_Evil 1000
+/mahouset souls Pink_Evil 0
+/mahouset rulebreakerm Pink_Evil
+/mahouset rulebreakerm Pink_Evil 2
+/mahousummon morganball ~ ~ ~ ~ ~ ~ 2 200
+/mahousummon morganball ~ ~ ~ ~ ~ ~ 2 200 2 2 2 2 2 2
+/mahoucancel
+/mahouset souls Pink_Evil 1
+/effect clear
+/ftbquests import_reward_table_from_chest any_relic ~ ~ ~
+/ftbquests import_reward_table_from_chest relics ~ ~ ~
+/mahouset morgan Pink_Evil 10000
+/reload
+/summon apotheosis:tiered_gateway
+/apoth spawn_boss Pink_Evil apotheosis:overworld/bogged
+/reload

@@ -1,0 +1,18 @@
+filename = 'quickstack-1.21.1-neoforge-1.0.3.jar'
+name = 'Quickstack Reborn'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Quickstack Reborn 1.0.3 - Neoforge 1.21.1'
+
+[download]
+hash = '40b14c206f305112cafb6d6ebe8919672d7b54a4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7434150
+project-id = 1402469

@@ -1,0 +1,23 @@
+[21:15:13] [INIT] KubeJS 2101.7.2-build.363; MC 2101 NeoForge
+[21:15:13] [INIT] Loaded plugins:
+[21:15:13] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[21:15:13] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[21:15:13] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[21:15:13] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[21:15:13] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbquests.kubejs.FTBQuestsKubeJSPlugin
+[21:15:13] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[21:15:13] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[21:15:13] [INFO] Loaded script server_scripts:dimension access limitations.js in 0.002 s
+[21:15:13] [INFO] Loaded script server_scripts:recipes added/shaped.js in 0.001 s
+[21:15:13] [INFO] Loaded script server_scripts:removed/removed loot/relics.js in 0.002 s
+[21:15:13] [INFO] Loaded script server_scripts:removed/removed_recipes.js in 0.001 s
+[21:15:13] [INFO] Loaded 4/4 KubeJS server scripts in 0.027 s with 0 errors and 0 warnings
+[21:15:15] [INFO] Processing recipes...
+[21:15:15] [INFO] Initializing recipe event...
+[21:15:15] [INFO] Found 2.493 recipes (skipped 142) in 159.6 ms
+[21:15:15] [INFO] server_scripts:recipes added/shaped.js#64: shaped recipes has fired, did work indeed
+[21:15:15] [INFO] Posted recipe events in 59 ms
+[21:15:15] [INFO] KubeJS modifications to recipe manager finished in 12.61 ms
+[21:15:15] [INFO] Added 4 recipes, removed 14 recipes, modified 0 recipes, with 0 failed recipes taking 294 ms in total
+[21:15:15] [INFO] [LootJS] Removed 2 global loot modifiers: relics:relic_loot, relics:greed_loot
+[21:15:16] [INFO] Server resource reload complete!
