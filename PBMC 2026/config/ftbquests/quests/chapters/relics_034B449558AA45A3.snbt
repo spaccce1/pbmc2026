@@ -1,0 +1,198 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "relics_034B449558AA45A3"
+	group: "45A64F8797315A41"
+	icon: {
+		components: {
+			"relics:data": {
+				abilities: {
+					abilities: {
+						phlebotomy: {
+							extender: {
+								cooldown: 0
+								cooldownCap: 0
+								ticking: 0b
+							}
+							lock: {
+								breaks: 0
+							}
+							points: 0
+							research: {
+								links: { }
+								researched: 0b
+							}
+							stats: {
+								attack_speed: {
+									initialValue: 0.00994d
+								}
+								heal: {
+									initialValue: 1.0E-4d
+								}
+								movement_speed: {
+									initialValue: 0.01267d
+								}
+							}
+						}
+						rage: {
+							extender: {
+								cooldown: 0
+								cooldownCap: 0
+								ticking: 0b
+							}
+							lock: {
+								breaks: 5
+							}
+							points: 0
+							research: {
+								links: { }
+								researched: 0b
+							}
+							stats: {
+								dealt_damage: {
+									initialValue: 0.02578d
+								}
+								duration: {
+									initialValue: 3.88055d
+								}
+								incoming_damage: {
+									initialValue: 0.03296d
+								}
+							}
+						}
+						spurt: {
+							extender: {
+								cooldown: 0
+								cooldownCap: 0
+								ticking: 0b
+							}
+							lock: {
+								breaks: 0
+							}
+							points: 0
+							research: {
+								links: { }
+								researched: 0b
+							}
+							stats: {
+								cooldown: {
+									initialValue: 16.55378d
+								}
+								damage: {
+									initialValue: 0.12468d
+								}
+								distance: {
+									initialValue: 3.67491d
+								}
+							}
+						}
+					}
+				}
+				leveling: {
+					experience: 0
+					level: 0
+					luck: 0
+					points: 0
+				}
+			}
+		}
+		id: "relics:rage_glove"
+	}
+	id: "034B449558AA45A3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0F4BDAE58B321DAA"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "4109B1C338E8759E"
+				type: "dimension"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			id: "5841EDCF40365483"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "1B6A76D25CEB0205"
+				type: "dimension"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			id: "5EF994265A58EC59"
+			tasks: [{
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+				id: "1E4C91302598CF02"
+				type: "advancement"
+			}]
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			id: "1A27F00EFEB1E9B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "024F88C3775B333F"
+				table_id: 4870090312716229720L
+				type: "all_table"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "5EAF64625FE68C11"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "0B469702A2225A19"
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "2D2794D72FCDB4EA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			id: "78AE12E0C2B37891"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "0532B22EB28EE4C6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			id: "7A5273AC5E68CF67"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "7A588F4AB37C2E59"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "237966B49377B37C"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "4107A20BCB203CDA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+	]
+}

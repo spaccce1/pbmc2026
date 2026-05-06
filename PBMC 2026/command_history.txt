@@ -1,0 +1,14 @@
+/gamemode creative
+/ftbquests open_book
+/locate structure minecraft:village_desert
+/tp @s -720 ~ -2016
+/spawn
+/rtp
+/spawn
+/tp 1000 ~ 10000
+/gamemode spectator
+/gamemode creative
+/gamemode spectator
+/rtp
+/gamemode survival
+/gamemode creative
