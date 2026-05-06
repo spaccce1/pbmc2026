@@ -18,6 +18,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["482AA7AD933471DA"]
 			id: "2474E21054F82CA9"
 			tasks: [{
 				id: "0360A95D5A67FA05"
@@ -28,6 +29,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["482AA7AD933471DA"]
 			id: "31E48D1D15CDA9EE"
 			tasks: [{
 				id: "4CA9D91C23EE233E"
@@ -38,6 +40,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["482AA7AD933471DA"]
 			id: "7A63443AD66C8BDF"
 			tasks: [{
 				id: "3F24D604E84A3955"
@@ -48,6 +51,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["482AA7AD933471DA"]
 			id: "3102CC4B510DDE01"
 			tasks: [{
 				id: "0E37988A5CBFEEA7"
@@ -56,6 +60,17 @@
 			}]
 			x: 0.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["148CCDA679701667"]
+			id: "482AA7AD933471DA"
+			tasks: [{
+				id: "08535CCFEF98E8E4"
+				item: { count: 1, id: "apotheosis:salvaging_table" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
 		}
 	]
 }
