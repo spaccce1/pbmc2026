@@ -501,7 +501,7 @@
 		POWER_CONSOLIDATION_DURABILITY = 1000
 		#Highest damage possible for Caliburn
 		#Range: 0 ~ 100000000
-		POWER_CONSOLIDATION_ATTACK_CAP = 60
+		POWER_CONSOLIDATION_ATTACK_CAP = 50
 		#This is the range for smiting undead mobs with Caliburn
 		#Range: 0 ~ 100000000
 		POWER_CONSOLIDATION_SMITE_RADIUS = 10
