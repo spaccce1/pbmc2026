@@ -18,7 +18,7 @@ ServerEvents.recipes(event => {
     event.remove({ type: '' })
     event.remove({ type: '' })
     event.remove({ type: '' })
-    event.remove({ type: 'apotheosis:salvaging' , output: 'apotheosis:gem_dust' })
+    event.remove({ type: 'apotheosis:salvaging' , output: 'apotheosis:gem_dust' }) //grrrr Franzosen, they make my thing not work
     event.remove({ output: 'apotheosis:gem_dust' })
     event.remove({ mod: 'ultimine_addition' })
 
