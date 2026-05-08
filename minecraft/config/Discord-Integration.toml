@@ -2,9 +2,9 @@
 [general]
   # Insert your Bot Token here!
   # DO NOT SHARE IT WITH ANYONE!
-  botToken = "REPLACE"
+  botToken = "INSERT BOT TOKEN HERE"
   # The channel ID where the bot will be working in
-  botChannel = "1500679941178658896"
+  botChannel = "000000000"
   # The bots status message
   # 
   # PLACEHOLDERS:
@@ -56,7 +56,7 @@
   enabled = true
   # The Role IDs of your Admin Roles
   # Now supports multiple roles which can access admin commands
-adminRoleIDs = [  "1500265182839177366"  ]
+adminRoleIDs = [    ]
   # Add your custom commands here
   # You can also generate some on https://erdbeerbaerlp.de/dcintegration-commands/
   # Enable the list command in discord
@@ -270,11 +270,11 @@ settingsBlacklist = [    ]
 [webhook]
   # Whether or not the bot should use a webhook (it will create one)
   # This will only work in standard channels
-  enable = true
+  enable = false
   # The avatar to be used for server messages
-  serverAvatarURL = "https://i.imgur.com/blaIWGl.jpeg"
+  serverAvatarURL = "https://raw.githubusercontent.com/ErdbeerbaerLP/Discord-Chat-Integration/master/images/srv.png"
   # The name to be used for server messages
-  serverName = "Blurplecrafted"
+  serverName = "Minecraft Server"
   # Use the server name and avatar for RCON
   useServerNameForRcon = true
   # Use the server name and avatar for Console
@@ -288,7 +288,7 @@ settingsBlacklist = [    ]
   # %randomUUID% - Returns an random UUID which can be used to prevent discord cache
   # https://www.tydiumcraft.net/docs/skinapi supports both bedrock(floodgate) and java players
   # Default - https://api.tydiumcraft.net/v1/players/skin?uuid=%uuid%&type=avatar&randomuuid=%randomUUID%
-  playerAvatarURL = "https://api.mineatar.io/face/%uuid%"
+  playerAvatarURL = "https://api.tydiumcraft.net/v1/players/skin?uuid=%uuid%&type=avatar&randomuuid=%randomUUID%"
   webhookName = "MC_DC_INTEGRATION"
 # Configuration for the in-game command '/discord'
 [ingameCommand]

@@ -7,6 +7,12 @@
 	chapter.7FA1F6A79E4955FD.title: "Lore"
 	chapter_group.45A64F8797315A41.title: "reward area"
 	chapter_group.7C7CD77229185278.title: "Mods"
+	quest.021883D81E96A3FE.quest_desc: [
+		"max base damage is 30"
+		"use godforged pearls to reach 50     (to do: change this to some boss drop)"
+		""
+		"use mahou's geas to not accidently oneshot your teammates"
+	]
 	quest.0E9453407A1C68C5.quest_desc: [
 		"For all the *insert name for the players* the *insert name for company* has been collecting any information on the changes happening to this world"
 		"this knowledge will help you in choosing what weapons to use and teach you features you didnt even know they had"
@@ -20,7 +26,11 @@
 		"Do you wish to join this act of freeing? Not everyone is sure"
 	]
 	quest.5320F36D4EBE401A.quest_subtitle: "more lore :D"
-	quest.5B321B09F15938FD.quest_desc: ["Changed to need to kill *insert*"]
+	quest.5B321B09F15938FD.quest_desc: [
+		"Changed to need to kill *insert*"
+		""
+		"use mahou's geas to not accidently oneshot your teammates"
+	]
 	quest.77AE849A9C802E20.quest_desc: [
 		"Strange things have been happening in this world. "
 		"All over the place relics of before unknown strengths have been appearing, people are going missing, mobs stronger than usual are spawning and then there are the people. The people that just spawn in out of place, with powers not seen here before. "
