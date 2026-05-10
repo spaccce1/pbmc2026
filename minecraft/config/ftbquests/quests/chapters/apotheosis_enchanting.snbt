@@ -21,7 +21,7 @@
 			id: "2FD11C373C737F63"
 			tasks: [{
 				id: "768A6249CC41C90E"
-				item: { count: 1, id: "minecraft:bookshelf" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:bookshelves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 3.0d
