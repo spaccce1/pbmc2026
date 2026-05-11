@@ -1,3 +1,6 @@
-// Visit the wiki for more info - https://kubejs.com/
-console.info('Hello, World! (Loaded client example script)')
 
+/*
+ItemEvents.tooltip(event => {
+  event.add(["minecraft:sugar"], 'hmm sugar... I wonder what would happen if I eat this?');
+})
+  */

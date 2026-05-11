@@ -1,0 +1,18 @@
+filename = 'ominous_steel-1.21-1.0.1.jar'
+name = 'Ominous Steel'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ominous_steel-1.21-1.0.0.jar'
+
+[download]
+hash = '918dffdef87c1ad4bb98237c63b48e5a4e35b18c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6351386
+project-id = 1226844

@@ -1,0 +1,21 @@
+filename = 'AetherVillages-1.21.1-1.0.8-neoforge.jar'
+name = 'Aether Villages'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '[NEOFORGE] AetherVillages-1.21.1-1.0.8-neoforge.jar'
+
+[download]
+hash = '0795d6a8934c90475c930149940937d6bea515af'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5895490
+project-id = 1073197
+
+[[x-prismlauncher-dependencies]]
+addonId = '419699'
+type = 'REQUIRED'
