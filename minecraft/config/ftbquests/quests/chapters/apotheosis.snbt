@@ -15,7 +15,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["482AA7AD933471DA"]
@@ -71,6 +71,136 @@
 			}]
 			x: 2.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["148CCDA679701667"]
+			id: "0F846A03B313D4E2"
+			tasks: [{
+				id: "7137E1028604548D"
+				item: { count: 1, id: "apotheosis:gem_cutting_table" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "0C25AC93DE1B3E3E"
+			tasks: [{
+				id: "45988BA7C59E3DE8"
+				item: { count: 1, id: "apotheosis:simple_reforging_table" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "7258BAE94DBBCCBF"
+			tasks: [{
+				id: "65CA9CB196DBBAC1"
+				item: { count: 1, id: "apotheosis:reforging_table" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "6187016AA8642A1F"
+			tasks: [{
+				id: "13BA96BE9DA69D42"
+				item: { count: 1, id: "minecraft:enchanting_table" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			id: "6D89DCF57FEC1F8A"
+			tasks: [{
+				id: "21CED9B73627A695"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:bookshelves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6D89DCF57FEC1F8A"]
+			id: "4E42D07E7F7FD812"
+			tasks: [{
+				id: "05E498AB35653AAB"
+				item: { count: 1, id: "apothic_enchanting:seashelf" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6D89DCF57FEC1F8A"]
+			id: "782330DE227D7371"
+			tasks: [{
+				id: "4DF0107A9B185302"
+				item: { count: 1, id: "apothic_enchanting:hellshelf" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"782330DE227D7371"
+				"4E42D07E7F7FD812"
+			]
+			dependency_requirement: "one_completed"
+			id: "54E87BAF8C40BAF3"
+			tasks: [{
+				id: "2404DE444BC238E8"
+				item: { count: 1, id: "apothic_enchanting:dormant_deepshelf" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54E87BAF8C40BAF3"]
+			id: "3771AF2202A50FD0"
+			tasks: [{
+				id: "38CA98073DEFA31D"
+				item: { count: 1, id: "apothic_enchanting:endshelf" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3771AF2202A50FD0"]
+			id: "759CE69446599A4B"
+			tasks: [{
+				id: "65B5384644D51B59"
+				item: { count: 1, id: "apothic_enchanting:draconic_endshelf" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			id: "7619155907A9E727"
+			tasks: [{
+				id: "6707BC268F18A003"
+				item: { count: 1, id: "apotheosis:gem_case" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			id: "5AADD641E9D197A6"
+			tasks: [{
+				id: "33B841BA77D2EBF0"
+				item: { count: 1, id: "apothic_enchanting:library" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
 		}
 	]
 }

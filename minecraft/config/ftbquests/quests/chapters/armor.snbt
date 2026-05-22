@@ -3,8 +3,11 @@
 	default_quest_shape: ""
 	filename: "armor"
 	group: "45A64F8797315A41"
+	icon: {
+		id: "aether:valkyrie_chestplate"
+	}
 	id: "360F5FB1B37E120E"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -136,6 +139,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["7327DFEBF9C26788"]
 			id: "1C79A6DD8169B1D3"
 			tasks: [{
 				id: "7FFAC1D236AF4996"
@@ -146,6 +150,10 @@
 			y: -4.5d
 		}
 		{
+			dependencies: [
+				"7327DFEBF9C26788"
+				"1F2C9F7DC5FF1775"
+			]
 			id: "67D24187AF18B57A"
 			tasks: [{
 				id: "1F1354DBB96E57FB"
@@ -198,6 +206,15 @@
 			}]
 			x: 2.0d
 			y: 1.5d
+		}
+		{
+			id: "396E994BC045C035"
+			tasks: [{
+				id: "014CE332F38A522F"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -6.0d
 		}
 	]
 }

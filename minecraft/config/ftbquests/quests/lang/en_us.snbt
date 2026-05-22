@@ -1,11 +1,8 @@
 {
-	chapter.027D60490B3270B8.title: "hidden logic stuff"
 	chapter.034B449558AA45A3.title: "Relics"
-	chapter.21B5030246DDDA2D.title: "quality of live"
+	chapter.21B5030246DDDA2D.title: "quality of life"
 	chapter.2651553FB84D4B25.title: "Apotheosis"
-	chapter.33D621456E8659BF.title: "Apotheosis Enchanting"
 	chapter.360F5FB1B37E120E.title: "armor"
-	chapter.4F368BD44F24F1C0.title: "weapons"
 	chapter.7183D9F454E4DAA0.title: "Mahou Tsukai"
 	chapter.7FA1F6A79E4955FD.title: "Lore"
 	chapter_group.45A64F8797315A41.title: "PBMC 2026"
@@ -16,17 +13,55 @@
 		""
 		"use mahou's geas to not accidently oneshot your teammates"
 	]
+	quest.0DD5EFB2C005161F.quest_desc: ["seems like something has to happen before you can go to the end..."]
+	quest.0DD5EFB2C005161F.quest_subtitle: "what are you trying to do there?"
 	quest.0E9453407A1C68C5.quest_desc: [
-		"For all the *insert name for the players* the *insert name for company* has been collecting any information on the changes happening to this world"
-		"this knowledge will help you in choosing what weapons to use and teach you features you didnt even know they had"
+		"For all their members &8&nThe Federation&r&r has been collecting any information on the changes happening to this world"
+		""
+		"this knowledge will help you in choosing what weapons to use and even teach you how to upgrade them"
 	]
 	quest.0E9453407A1C68C5.quest_subtitle: "what is that"
 	quest.0E9453407A1C68C5.title: "Apotheosis?"
+	quest.148CCDA679701667.quest_subtitle: "hehe anvil"
+	quest.179F1DC71086C48D.quest_desc: [
+		"for the first one to do this:"
+		"message me (pink) on dc and Ill think of something funny to give you"
+	]
+	quest.179F1DC71086C48D.quest_subtitle: "never would have imagined smh smh"
+	quest.179F1DC71086C48D.title: "U HAVE PLAYARD AROUND WITH IT"
+	quest.17CB4DA8B77F55F6.title: "the first king"
 	quest.21FD33521EBBA8BB.quest_desc: [
 		"the changes have broght some upsides along with the downsides."
 		"many of these help you come around in the every day life"
 	]
+	quest.21FD33521EBBA8BB.title: "QOL"
 	quest.28BAD41E3B63E643.title: "Waystones"
+	quest.2C3FEEBE8A03E2B4.quest_desc: [
+		"take damage (the dagger is nice for this) and then press C on the ground to draw your first circle"
+		""
+		"I would recommend using EMI for most information and the book only if you need more than that"
+	]
+	quest.2C3FEEBE8A03E2B4.quest_subtitle: "blood magic??"
+	quest.2C3FEEBE8A03E2B4.title: "how to mahou"
+	quest.33D00671879BC08B.quest_desc: [
+		"Awesome building stuff"
+		""
+		"(also funny sounds)"
+	]
+	quest.33D00671879BC08B.title: "Iden's decor"
+	quest.35BE10F8385D57D1.title: "the second king"
+	quest.37D47E7A6EFB8B1D.title: "Lore??"
+	quest.396E994BC045C035.quest_desc: ["armors will get a huge rebalancing in stats, didnt get to do that yet as it needs a lot of testing. But dont worry, I will (hopefully) have adjusted them by the time they are craftable"]
+	quest.396E994BC045C035.title: "Info on the pack"
+	quest.4470994F62B909A4.title: "A stronger wither"
+	quest.4D24F9DC50CFA6EB.title: "the wither"
+	quest.508FDC702FE1E64B.quest_desc: [
+		"Mahou has a lot of other cool stuff, play around with it!"
+		""
+		"&mI love the big explosion&r"
+	]
+	quest.508FDC702FE1E64B.quest_subtitle: "making quests takes time ok ):"
+	quest.508FDC702FE1E64B.title: "A lot of stuff!"
 	quest.5320F36D4EBE401A.quest_desc: [
 		"The powers of the new people are showing, you managed to defeat the ender dragon in just a few short days. The people of this land have tried to get rid of this pest haunting the end for years without success."
 		""
@@ -34,11 +69,15 @@
 		"Do you wish to join this act of freeing? Not everyone is sure"
 	]
 	quest.5320F36D4EBE401A.quest_subtitle: "more lore :D"
+	quest.5A4DBBBF18BBA8CB.title: "attackers of the end"
 	quest.5B321B09F15938FD.quest_desc: [
 		"Changed to need to kill the Warden "
 		""
 		"use mahou's geas to not accidently oneshot your teammates"
 	]
+	quest.68107556F717C804.title: "the last king?"
+	quest.6D89DCF57FEC1F8A.title: "Any Bookshelf"
+	quest.7327DFEBF9C26788.title: "desert awakening"
 	quest.77AE849A9C802E20.quest_desc: [
 		"Strange things have been happening in this world. "
 		"All over the place relics of before unknown strengths have been appearing, people are going missing, mobs stronger than usual are spawning and then there are the people. The people that just spawn in out of place, with powers not seen here before. "
@@ -48,23 +87,33 @@
 	]
 	quest.77AE849A9C802E20.quest_subtitle: "new to this world?"
 	quest.77AE849A9C802E20.title: "Introduction"
+	quest.7B257B35C2B7B214.title: "Attackers of the ocean"
 	quest.7DBFADAAB2D4C875.quest_desc: [
 		"look in here from time to time, or any time the world changes"
 		"you will find here all the information on changes here once they are known"
 	]
+	reward.2CCA8F502D6165AA.title: "such peak"
 	reward_table.032BA5F546D8807C.title: "any_relic"
 	reward_table.599F4BFA7D59781B.title: "relics"
+	task.0510A5C2C9996887.title: "Ascent"
 	task.0659C6AF6CB5C473.title: "new to this world?"
 	task.0D8EBA1BACF888FE.title: "Summit"
+	task.12D447D68993C4AB.title: "Any #c:chests/wooden"
 	task.140F203DFB6A2401.title: "what happened here?"
 	task.199CEEE7B0B4D0D0.title: "Pinnacle"
 	task.21DC7A7E93D76232.title: "Ascent"
+	task.26A63C878B2A2E1B.title: "Any #sophisticatedstorage:all_storage"
 	task.2BA317601422B4D3.title: "got all of that?"
+	task.38994B3E680A6D5F.title: "Frontier"
 	task.3F5000B94E8371F0.title: "Haven"
 	task.4052C718553BFA66.title: "Ascent"
 	task.4118E2D610303B21.title: "Summit"
+	task.42E1A5DC0B4735B5.title: "???"
 	task.436B0133DA0AD493.title: "Frontier"
+	task.44957969FBF537E5.title: "Summit"
 	task.47662FC9F2C660C5.title: "Pinnacle"
 	task.5333AB09D25F26DE.title: "Frontier "
+	task.6BE4E46AC2C86286.title: "Pinnacle"
+	task.762911DEEA166336.title: "Iden's"
 	task.768A6249CC41C90E.title: "Any #c:bookshelves"
 }

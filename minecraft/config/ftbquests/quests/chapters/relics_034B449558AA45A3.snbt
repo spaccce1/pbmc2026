@@ -72,24 +72,7 @@
 				type: "dimension"
 			}]
 			x: 9.0d
-			y: -1.5d
-		}
-		{
-			id: "5EF994265A58EC59"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1985430E67353B3E"
-				table_id: 228458678986506364L
-				type: "random"
-			}]
-			tasks: [{
-				advancement: "minecraft:end/respawn_dragon"
-				criterion: ""
-				id: "1E4C91302598CF02"
-				type: "advancement"
-			}]
-			x: 12.5d
-			y: -4.0d
+			y: -2.0d
 		}
 		{
 			id: "1A27F00EFEB1E9B6"
@@ -105,8 +88,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -2.5d
-			y: 0.5d
+			x: -5.5d
+			y: -1.0d
 		}
 		{
 			id: "0B469702A2225A19"
@@ -143,38 +126,304 @@
 			y: 0.5d
 		}
 		{
-			id: "7A5273AC5E68CF67"
+			id: "37D47E7A6EFB8B1D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "00C4AC8ABD91C95D"
+					table_id: 6457963929889503259L
+					type: "random"
+				}
+				{
+					auto: "enabled"
+					command: "/apoth set_world_tier @p haven"
+					id: "2DA60B7C01BE0BA7"
+					type: "command"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					components: {
+						"ftbquests:icon": "ftblibrary:textures/faces/minecraft/ender_dragon.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "38B71730EA9BAC79"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "7327DFEBF9C26788"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C280DC906988BE9"
+					table_id: 6457963929889503259L
+					type: "random"
+				}
+				{
+					auto: "invisible"
+					id: "22752559618762F4"
+					stage: "Frontier"
+					type: "gamestage"
+				}
+				{
+					auto: "enabled"
+					command: "/apoth set_world_tier @p frontier"
+					id: "4F81A5221BDD001B"
+					type: "command"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "79B648296AA8721D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:wither"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4D24F9DC50CFA6EB"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "7134F2349CA03B76"
-				table_id: 228458678986506364L
+				id: "076D03CEFE33EDB0"
+				table_id: 6457963929889503259L
 				type: "random"
 			}]
 			tasks: [{
 				entity: "minecraft:wither"
-				id: "7A588F4AB37C2E59"
+				id: "3AA2034356BCBCCB"
 				type: "kill"
 				value: 1L
 			}]
-			x: -2.5d
-			y: 2.0d
+			x: -0.5d
+			y: 4.0d
 		}
 		{
-			id: "237966B49377B37C"
+			id: "4470994F62B909A4"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "6F34EDB4FB19AF9B"
+				id: "4B98A132B8AB6FDB"
+				table_id: 6457963929889503259L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "00F021151B1869F6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			id: "5A4DBBBF18BBA8CB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "21545203C1504F78"
+					table_id: 6457963929889503259L
+					type: "random"
+				}
+				{
+					auto: "invisible"
+					id: "46E8A0BA6B2FCFC4"
+					stage: "Ascent"
+					type: "gamestage"
+				}
+				{
+					auto: "enabled"
+					command: "/apoth set_world_tier @p ascent"
+					id: "6EF067D2914324DD"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
+					id: "42008E41EBDD52AB"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ender_golem"
+					id: "079AB70258E81938"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "7B257B35C2B7B214"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B504C96BB2952AC"
+				table_id: 6457963929889503259L
+				type: "random"
+			}]
+			tasks: [
+				{
+					entity: "cataclysm:clawdian"
+					id: "1E245BCCE0912F07"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:scylla"
+					id: "239B349C2C7A3DF2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			id: "17CB4DA8B77F55F6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "541A9CA78C810074"
+					table_id: 6457963929889503259L
+					type: "random"
+				}
+				{
+					auto: "invisible"
+					id: "20EAD59C8A76B727"
+					stage: "Summit"
+					type: "gamestage"
+				}
+				{
+					auto: "enabled"
+					command: "/apoth set_world_tier @p summit"
+					id: "4889870237CD5330"
+					type: "command"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "529D8A008DB58023"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			id: "35BE10F8385D57D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49210C7209560423"
+				table_id: 6457963929889503259L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "47B566F7EC95D178"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			id: "68107556F717C804"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7F3300BC342330AB"
+					table_id: 6457963929889503259L
+					type: "random"
+				}
+				{
+					auto: "invisible"
+					id: "456527ACDF0535A7"
+					stage: "Pinnacle"
+					type: "gamestage"
+				}
+				{
+					auto: "enabled"
+					command: "/apoth set_world_tier @p pinnacle"
+					id: "0363F0F7E24D119B"
+					type: "command"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "37D16CEC52D402DC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			id: "2ABED911FACFD4AF"
+			tasks: [{
+				entity: "minecraft:giant"
+				id: "42E1A5DC0B4735B5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			id: "1F2C9F7DC5FF1775"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55156B184066F6D6"
 				table_id: 228458678986506364L
 				type: "random"
 			}]
 			tasks: [{
-				entity: "minecraft:ender_dragon"
-				id: "4107A20BCB203CDA"
-				type: "kill"
-				value: 1L
+				dimension: "aether:the_aether"
+				id: "0B6B2693B3CABB70"
+				type: "dimension"
 			}]
-			x: -2.5d
-			y: 3.5d
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "179F1DC71086C48D"
+			invisible: true
+			rewards: [{
+				auto: "enabled"
+				command: "/say @p HAS DONE THE THING"
+				id: "2CCA8F502D6165AA"
+				type: "command"
+			}]
+			tasks: [{
+				dimension: "mahoutsukai:reality_marble"
+				id: "098F8CA71C60B309"
+				type: "dimension"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "0DD5EFB2C005161F"
+			tasks: [{
+				id: "54A0D0C55752F3A8"
+				structure: "minecraft:stronghold"
+				type: "structure"
+			}]
+			x: 10.0d
+			y: -4.0d
 		}
 	]
 }

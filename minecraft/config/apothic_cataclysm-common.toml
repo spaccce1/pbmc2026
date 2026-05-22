@@ -7,7 +7,7 @@
 	chanceToReplaceNormalWeapon = 0.5
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
-	dropChanceOverride = 0.1
+	dropChanceOverride = 0
 
 [weapon_toggles]
 	enableAncientSpear = true
