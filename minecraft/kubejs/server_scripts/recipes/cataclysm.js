@@ -30,6 +30,19 @@ ServerEvents.recipes(event => {
     'minecraft:blaze_powder',
     'kubejs:arcane_gem',
   )
+
+
+
+
+
+
+
+  //weapons
+  event.replaceInput(
+    { id: 'cataclysm:the_incinerator' },
+    'minecraft:blaze_rod', 'kubejs:arcane_gem',
+  )
+  //event.replaceInput(
   
 
 
