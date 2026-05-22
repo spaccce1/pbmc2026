@@ -73,5 +73,16 @@
 			x: -2.5d
 			y: -3.5d
 		}
+		{
+			dependencies: ["21FD33521EBBA8BB"]
+			id: "45BC6128E932B887"
+			tasks: [{
+				id: "2144341841077068"
+				item: { count: 1, id: "minopp:mino_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
 	]
 }

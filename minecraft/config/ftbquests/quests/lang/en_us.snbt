@@ -1,5 +1,5 @@
 {
-	chapter.034B449558AA45A3.title: "Relics"
+	chapter.034B449558AA45A3.title: "Progression"
 	chapter.21B5030246DDDA2D.title: "quality of life"
 	chapter.2651553FB84D4B25.title: "Apotheosis"
 	chapter.360F5FB1B37E120E.title: "armor"
@@ -56,6 +56,10 @@
 	quest.396E994BC045C035.quest_desc: ["armors will get a huge rebalancing in stats, didnt get to do that yet as it needs a lot of testing. But dont worry, I will (hopefully) have adjusted them by the time they are craftable"]
 	quest.396E994BC045C035.title: "Info on the pack"
 	quest.4470994F62B909A4.title: "A stronger wither"
+	quest.45BC6128E932B887.quest_desc: [
+		"Ever wanted to play UNO in minecraft?"
+		"no? Well whatever, you can do that now."
+	]
 	quest.4D24F9DC50CFA6EB.title: "the wither"
 	quest.508FDC702FE1E64B.quest_desc: [
 		"Mahou has a lot of other cool stuff, play around with it!"

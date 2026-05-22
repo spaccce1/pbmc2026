@@ -140,6 +140,14 @@
 					id: "2DA60B7C01BE0BA7"
 					type: "command"
 				}
+				{
+					id: "656E1B66035FA5CA"
+					item: {
+						count: 1
+						id: "ultimine_addition:miner_certificate"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				entity: "minecraft:ender_dragon"
