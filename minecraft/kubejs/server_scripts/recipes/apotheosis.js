@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
     )
     event.replaceInput(
         { id: 'apotheosis:simple_reforging_table' },
-        'apotheosis:gem_dust', 'kubejs:rought_sapphire',
+        'apotheosis:gem_dust', 'kubejs:crystallized_soul',
     )
     event.replaceInput(
         { id: 'apotheosis:simple_reforging_table' },
