@@ -1,15 +1,18 @@
 {
 	chapter.027D60490B3270B8.title: "hidden logic stuff"
 	chapter.034B449558AA45A3.title: "Relics"
+	chapter.21B5030246DDDA2D.title: "quality of live"
 	chapter.2651553FB84D4B25.title: "Apotheosis"
 	chapter.33D621456E8659BF.title: "Apotheosis Enchanting"
+	chapter.360F5FB1B37E120E.title: "armor"
+	chapter.4F368BD44F24F1C0.title: "weapons"
 	chapter.7183D9F454E4DAA0.title: "Mahou Tsukai"
 	chapter.7FA1F6A79E4955FD.title: "Lore"
-	chapter_group.45A64F8797315A41.title: "reward area"
+	chapter_group.45A64F8797315A41.title: "PBMC 2026"
 	chapter_group.7C7CD77229185278.title: "Mods"
 	quest.021883D81E96A3FE.quest_desc: [
 		"max base damage is 30"
-		"use godforged pearls to reach 50     (to do: change this to some boss drop)"
+		"use godforged pearls to reach 60 (5 damage per)"
 		""
 		"use mahou's geas to not accidently oneshot your teammates"
 	]
@@ -19,6 +22,11 @@
 	]
 	quest.0E9453407A1C68C5.quest_subtitle: "what is that"
 	quest.0E9453407A1C68C5.title: "Apotheosis?"
+	quest.21FD33521EBBA8BB.quest_desc: [
+		"the changes have broght some upsides along with the downsides."
+		"many of these help you come around in the every day life"
+	]
+	quest.28BAD41E3B63E643.title: "Waystones"
 	quest.5320F36D4EBE401A.quest_desc: [
 		"The powers of the new people are showing, you managed to defeat the ender dragon in just a few short days. The people of this land have tried to get rid of this pest haunting the end for years without success."
 		""
@@ -27,7 +35,7 @@
 	]
 	quest.5320F36D4EBE401A.quest_subtitle: "more lore :D"
 	quest.5B321B09F15938FD.quest_desc: [
-		"Changed to need to kill *insert*"
+		"Changed to need to kill the Warden "
 		""
 		"use mahou's geas to not accidently oneshot your teammates"
 	]
@@ -48,6 +56,7 @@
 	reward_table.599F4BFA7D59781B.title: "relics"
 	task.0659C6AF6CB5C473.title: "new to this world?"
 	task.0D8EBA1BACF888FE.title: "Summit"
+	task.140F203DFB6A2401.title: "what happened here?"
 	task.199CEEE7B0B4D0D0.title: "Pinnacle"
 	task.21DC7A7E93D76232.title: "Ascent"
 	task.2BA317601422B4D3.title: "got all of that?"

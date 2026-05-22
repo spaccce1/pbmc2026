@@ -1,0 +1,203 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armor"
+	group: "45A64F8797315A41"
+	id: "360F5FB1B37E120E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5E723B2CD5C9A1AD"
+			tasks: [{
+				id: "5A6D46208DBE0989"
+				item: { count: 1, id: "minecraft:netherite_helmet" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "5B020A52105D70F7"
+			tasks: [{
+				id: "07ECB0A7F42A09D6"
+				item: { count: 1, id: "minecraft:netherite_chestplate" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "49E3211D8F57E291"
+			tasks: [{
+				id: "3CCC219723979CD1"
+				item: { count: 1, id: "minecraft:netherite_leggings" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "1885541FAA50AEE8"
+			tasks: [{
+				id: "56885CDBAC04FED5"
+				item: { count: 1, id: "minecraft:netherite_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5E723B2CD5C9A1AD"]
+			id: "490395195199C7DF"
+			tasks: [{
+				id: "2166486683D5B615"
+				item: { count: 1, id: "ominous_steel:ominous_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5B020A52105D70F7"]
+			id: "4BBC9CDED18700A2"
+			tasks: [{
+				id: "4F31CC5EC300BBF7"
+				item: { count: 1, id: "ominous_steel:ominous_chestplate" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["49E3211D8F57E291"]
+			id: "250C8654DAB52952"
+			tasks: [{
+				id: "5FB90E0A3482AF40"
+				item: { count: 1, id: "ominous_steel:ominous_leggings" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1885541FAA50AEE8"]
+			id: "28E5DF150E774560"
+			tasks: [{
+				id: "7A59C1C8CA5A8425"
+				item: { count: 1, id: "ominous_steel:ominous_boots" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["490395195199C7DF"]
+			id: "2B5DD6A60BF054B5"
+			tasks: [{
+				id: "338CDB73B491CCDE"
+				item: { count: 1, id: "cataclysm:cursium_helmet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4BBC9CDED18700A2"]
+			id: "0FF8BE5E71D10C2A"
+			tasks: [{
+				id: "1DB75619DB6A70F7"
+				item: { count: 1, id: "cataclysm:cursium_chestplate" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["250C8654DAB52952"]
+			id: "073C1ACE0E712708"
+			tasks: [{
+				id: "2B0F59988A8E81DD"
+				item: { count: 1, id: "cataclysm:cursium_leggings" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28E5DF150E774560"]
+			id: "0A27A632C94F761D"
+			tasks: [{
+				id: "5747F2E56A1283E0"
+				item: { count: 1, id: "cataclysm:cursium_boots" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "1C79A6DD8169B1D3"
+			tasks: [{
+				id: "7FFAC1D236AF4996"
+				item: { count: 1, id: "cataclysm:bone_reptile_chestplate" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "67D24187AF18B57A"
+			tasks: [{
+				id: "1F1354DBB96E57FB"
+				item: { count: 1, id: "cataclysm:bone_reptile_helmet" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2B5DD6A60BF054B5"]
+			id: "228824DC908E6720"
+			tasks: [{
+				id: "747103824A91E593"
+				item: { count: 1, id: "cataclysm:ignitium_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0FF8BE5E71D10C2A"]
+			id: "6C9E291BD2B0132C"
+			tasks: [{
+				id: "170555BF579182BF"
+				item: { count: 1, id: "cataclysm:ignitium_chestplate" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["073C1ACE0E712708"]
+			id: "5EE5ED56300DB68F"
+			tasks: [{
+				id: "12383F6E768A55FA"
+				item: { count: 1, id: "cataclysm:ignitium_leggings" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A27A632C94F761D"]
+			id: "6CEB14D1F7436F3E"
+			tasks: [{
+				id: "163658723BD460AC"
+				item: { count: 1, id: "cataclysm:ignitium_boots" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+	]
+}
