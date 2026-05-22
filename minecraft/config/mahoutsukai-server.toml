@@ -648,7 +648,7 @@
 		# Range: 0 ~ 100000000
 		POWER_CONSOLIDATION_SWORD_MANA_COST = 5000
 		#Power Consolidation Tier Upgrade Items
-		POWER_CONSOLIDATION_TIER_UPGRADE_ITEM = ["minecraft:nether_star"]
+		POWER_CONSOLIDATION_TIER_UPGRADE_ITEM = ["apotheosis:mythic_material"]
 		#This is the range for undead mobs to fear Caliburn
 		# Default: 15
 		# Range: 0 ~ 100000000
