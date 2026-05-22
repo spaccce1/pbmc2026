@@ -1,12 +1,10 @@
-const Mahou = true
-const reforge_simple = true
-const reforge_advanced = true
+
 
 ServerEvents.recipes(event => {
 
 
     //Mahou Tsukai ------------------------------------------------------------------------------
-    if (Mahou === true)
+    //if (Mahou === true)
     event.shaped(
         Item.of('mahoutsukai:mortar', 1), // arg 1: output
         [
@@ -36,7 +34,6 @@ ServerEvents.recipes(event => {
 
 
 
-
     //Wood Shit-----------------------------------------------------------
     event.shaped(
         Item.of('4x minecraft:chest'),
@@ -61,5 +58,40 @@ ServerEvents.recipes(event => {
             A: '#minecraft:logs'
         }
     )
-    console.log('shaped recipes has fired, did work indeed')
+
+
+
+    //progression stuff? -----------------------------------------------------------
+    event.shaped(
+        Item.of('cataclysm:black_steel_ingot', 1), // arg 1: output
+        [
+            '   ',
+            'ABA', // arg 2: the shape (array of strings)
+            '   '
+        ],
+        {
+            A: 'apotheosis:epic_material',
+            B: 'ominous_steel:ominous_ingot'
+        }
+    )
+    event.shaped(
+        Item.of('ominous_steel:ominous_scrap', 10), // arg 1: output
+        [
+            '   ',
+            'ABA', // arg 2: the shape (array of strings)
+            '   '
+        ],
+        {
+            A: 'minecraft:popped_chorus_fruit',
+            B: 'minecraft:netherite_scrap'
+        }
+    )
+
+
+    event.replaceInput({ id: 'reliquified_artifacts:mimi_dust' },
+        'minecraft:echo_shard', 'kubejs:arcane_gem',)
+    event.replaceInput({ id: 'reliquified_artifacts:mimi_dust' },
+        'minecraft:glowstone_dust', 'apotheosis:gem_dust',)
+    event.replaceInput({ id: 'reliquified_artifacts:mimi_dust' },
+        'minecraft:redstone', 'apotheosis:epic_material',)
 })
