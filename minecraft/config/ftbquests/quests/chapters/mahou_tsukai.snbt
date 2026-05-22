@@ -33,7 +33,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["3102CC4B510DDE01"]
+			dependencies: [
+				"3102CC4B510DDE01"
+				"720B43E60DC33824"
+			]
 			id: "5B2AE0CC6F14CB1C"
 			tasks: [{
 				id: "1A8D47DC6B91AC67"
@@ -50,8 +53,8 @@
 				id: "4607AA015E9F117A"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: -1.5d
+			x: 4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5B2AE0CC6F14CB1C"]
@@ -69,8 +72,8 @@
 				item: { count: 1, id: "mahoutsukai:dagger" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			x: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["508FDC702FE1E64B"]
@@ -80,8 +83,8 @@
 				item: { count: 1, id: "mahoutsukai:scroll_geas" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.5d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["508FDC702FE1E64B"]
@@ -91,8 +94,8 @@
 				item: { count: 1, id: "mahoutsukai:attuner" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["508FDC702FE1E64B"]
@@ -102,8 +105,8 @@
 				item: { count: 1, id: "mahoutsukai:mana_circuit_magitech" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: 6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["508FDC702FE1E64B"]
@@ -114,7 +117,16 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -3.0d
+			y: -5.0d
+		}
+		{
+			id: "720B43E60DC33824"
+			tasks: [{
+				id: "538BE663F9BCACFF"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -4.5d
 		}
 	]
 }

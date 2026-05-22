@@ -540,7 +540,7 @@
 		#Durability of swords spawned in the Marble Dimension
 		# Default: 3
 		# Range: 0 ~ 100000000
-		MARBLE_DIMENSION_DURABILITY = 3
+		MARBLE_DIMENSION_DURABILITY = 10
 		#Reality Marble Mob Blacklist
 		MARBLE_MOB_BLACKLIST = []
 

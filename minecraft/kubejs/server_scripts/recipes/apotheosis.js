@@ -35,6 +35,15 @@ ServerEvents.recipes(event => {
         { id: 'apotheosis:simple_reforging_table' },
         'minecraft:iron_ingot', 'ominous_steel:ominous_ingot',
     )
+    event.replaceInput(
+        { id: 'apotheosis:augmenting_table' },
+        'minecraft:polished_blackstone', 'kubejs:arcane_gem',
+    )
+    event.replaceInput(
+        { id: 'apotheosis:reforging_table' },
+        'minecraft:nether_bricks', 'kubejs:crystallized_soul',
+    )
+
 
 
 

@@ -13,6 +13,7 @@
 		""
 		"use mahou's geas to not accidently oneshot your teammates"
 	]
+	quest.0C2F17EAAE146680.quest_desc: ["use ctrl+T to see the current stage and its effects on the environment"]
 	quest.0DD5EFB2C005161F.quest_desc: ["seems like something has to happen before you can go to the end..."]
 	quest.0DD5EFB2C005161F.quest_subtitle: "what are you trying to do there?"
 	quest.0E9453407A1C68C5.quest_desc: [
@@ -22,7 +23,7 @@
 	]
 	quest.0E9453407A1C68C5.quest_subtitle: "what is that"
 	quest.0E9453407A1C68C5.title: "Apotheosis?"
-	quest.148CCDA679701667.quest_subtitle: "hehe anvil"
+	quest.148CCDA679701667.quest_subtitle: "hehe anvil go smash"
 	quest.179F1DC71086C48D.quest_desc: [
 		"for the first one to do this:"
 		"message me (pink) on dc and Ill think of something funny to give you"
@@ -36,6 +37,7 @@
 	]
 	quest.21FD33521EBBA8BB.title: "QOL"
 	quest.28BAD41E3B63E643.title: "Waystones"
+	quest.28E716BDA51D4953.quest_desc: ["try to fill the chest as much as possbile for more efficiency!"]
 	quest.2C3FEEBE8A03E2B4.quest_desc: [
 		"take damage (the dagger is nice for this) and then press C on the ground to draw your first circle"
 		""
@@ -83,6 +85,8 @@
 	]
 	quest.68107556F717C804.title: "the last king?"
 	quest.6D89DCF57FEC1F8A.title: "Any Bookshelf"
+	quest.720B43E60DC33824.quest_desc: ["Quite the late game mod, but it got some quite strong stuff for you"]
+	quest.720B43E60DC33824.title: "Mahou Tsukai"
 	quest.7327DFEBF9C26788.title: "desert awakening"
 	quest.77AE849A9C802E20.quest_desc: [
 		"Strange things have been happening in this world. "
@@ -90,13 +94,19 @@
 		"Something is changing."
 		""
 		"&n&4you are one of those people&r&r"
+		""
+		"This world has never been simple. But recently, it's been changing. The sights more breathtaking, the monsters more dangerous, and the players... well."
+		""
+		"Now that you've arrived, there's only one question left."
+		""
+		"&n&4What will you do?&r&r"
 	]
 	quest.77AE849A9C802E20.quest_subtitle: "new to this world?"
 	quest.77AE849A9C802E20.title: "Introduction"
 	quest.7B257B35C2B7B214.title: "Attackers of the ocean"
 	quest.7DBFADAAB2D4C875.quest_desc: [
-		"look in here from time to time, or any time the world changes"
-		"you will find here all the information on changes here once they are known"
+		"look in here from time to time!"
+		"here you will find all the information on this world"
 	]
 	reward.2CCA8F502D6165AA.title: "such peak"
 	reward_table.032BA5F546D8807C.title: "any_relic"
@@ -119,6 +129,7 @@
 	task.44957969FBF537E5.title: "Summit"
 	task.47662FC9F2C660C5.title: "Pinnacle"
 	task.5333AB09D25F26DE.title: "Frontier "
+	task.538BE663F9BCACFF.title: "Mahou!"
 	task.6BE4E46AC2C86286.title: "Pinnacle"
 	task.762911DEEA166336.title: "Iden's"
 	task.768A6249CC41C90E.title: "Any #c:bookshelves"

@@ -4,6 +4,14 @@
 	filename: "apotheosis"
 	group: "7C7CD77229185278"
 	id: "2651553FB84D4B25"
+	images: [{
+		height: 4.0d
+		image: "relics:textures/gui/description/general/icons/rank.png"
+		rotation: 0.0d
+		width: 4.0d
+		x: 8.5d
+		y: -3.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -91,7 +99,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			id: "7258BAE94DBBCCBF"
@@ -101,7 +109,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			id: "6187016AA8642A1F"
@@ -131,7 +139,7 @@
 				item: { count: 1, id: "apothic_enchanting:seashelf" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: -3.0d
 		}
 		{
@@ -142,7 +150,7 @@
 				item: { count: 1, id: "apothic_enchanting:hellshelf" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: -3.0d
 		}
 		{
@@ -189,7 +197,7 @@
 				item: { count: 1, id: "apotheosis:gem_case" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: -2.0d
 		}
 		{
@@ -199,8 +207,18 @@
 				item: { count: 1, id: "apothic_enchanting:library" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: -4.0d
+		}
+		{
+			id: "45495613AFF74026"
+			tasks: [{
+				id: "7BAE5735831380E5"
+				item: { count: 1, id: "apotheosis:augmenting_table" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
 		}
 	]
 }
