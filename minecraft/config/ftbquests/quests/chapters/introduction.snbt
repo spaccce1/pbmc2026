@@ -45,16 +45,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["37D47E7A6EFB8B1D"]
-			id: "5320F36D4EBE401A"
-			tasks: [{
-				id: "5D2874C6940AD0B0"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 1.5d
-		}
-		{
 			dependencies: ["77AE849A9C802E20"]
 			id: "7DBFADAAB2D4C875"
 			tasks: [{
@@ -62,7 +52,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7327DFEBF9C26788"]

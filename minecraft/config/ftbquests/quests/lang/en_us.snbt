@@ -14,8 +14,9 @@
 		"use mahou's geas to not accidently oneshot your teammates"
 	]
 	quest.0C2F17EAAE146680.quest_desc: ["use ctrl+T to see the current stage and its effects on the environment"]
-	quest.0DD5EFB2C005161F.quest_desc: ["seems like something has to happen before you can go to the end..."]
-	quest.0DD5EFB2C005161F.quest_subtitle: "what are you trying to do there?"
+	quest.0DD5EFB2C005161F.quest_desc: ["This place seems to want you to wait for something."]
+	quest.0DD5EFB2C005161F.quest_subtitle: "The rift between worlds is weak here"
+	quest.0DD5EFB2C005161F.title: "A dormant place"
 	quest.0E9453407A1C68C5.quest_desc: [
 		"For all their members &8&nThe Federation&r&r has been collecting any information on the changes happening to this world"
 		""
@@ -23,6 +24,9 @@
 	]
 	quest.0E9453407A1C68C5.quest_subtitle: "what is that"
 	quest.0E9453407A1C68C5.title: "Apotheosis?"
+	quest.0F4BDAE58B321DAA.quest_desc: ["Although it presents as the end, I can feel this is the beginning of something extraordinary."]
+	quest.0F4BDAE58B321DAA.quest_subtitle: "I'm finally through!"
+	quest.0F4BDAE58B321DAA.title: "The End?"
 	quest.148CCDA679701667.quest_subtitle: "hehe anvil go smash"
 	quest.179F1DC71086C48D.quest_desc: [
 		"for the first one to do this:"
@@ -54,7 +58,9 @@
 	]
 	quest.33D00671879BC08B.title: "Iden's decor"
 	quest.35BE10F8385D57D1.title: "the second king"
-	quest.37D47E7A6EFB8B1D.title: "Lore??"
+	quest.37D47E7A6EFB8B1D.quest_desc: ["The villagers have told stories of this dragon for eons. It's time to end it once and for all."]
+	quest.37D47E7A6EFB8B1D.quest_subtitle: "The dragon of legends past..."
+	quest.37D47E7A6EFB8B1D.title: "Kill Her"
 	quest.396E994BC045C035.quest_desc: ["armors will get a huge rebalancing in stats, didnt get to do that yet as it needs a lot of testing. But dont worry, I will (hopefully) have adjusted them by the time they are craftable"]
 	quest.396E994BC045C035.title: "Info on the pack"
 	quest.4470994F62B909A4.title: "A stronger wither"
@@ -71,12 +77,17 @@
 	quest.508FDC702FE1E64B.quest_subtitle: "making quests takes time ok ):"
 	quest.508FDC702FE1E64B.title: "A lot of stuff!"
 	quest.5320F36D4EBE401A.quest_desc: [
-		"The powers of the new people are showing, you managed to defeat the ender dragon in just a few short days. The people of this land have tried to get rid of this pest haunting the end for years without success."
+		"In just a few short days, you've killed the Ender Dragon that has plagued this world for centuries."
 		""
-		"Because of this you have decided to bond together, now that you are here with no return, You have named yourself &8&nThe Federation&r&r and have set yourself the goal of protecting everyone from all the evil invading."
-		"Do you wish to join this act of freeing? Not everyone is sure"
+		"The story of your power has swept across the lands, and you're approached by an organization, &6&nThe Federation&r&r. Their goal is to eliminate all the most dangerous beasts of this realm, and they wish for you to join them."
+		""
+		"&4Will you?"
 	]
-	quest.5320F36D4EBE401A.quest_subtitle: "more lore :D"
+	quest.5320F36D4EBE401A.quest_subtitle: "You can feel the world fragmenting beneath you"
+	quest.5320F36D4EBE401A.title: "You did it..."
+	quest.5841EDCF40365483.quest_desc: ["Be careful!"]
+	quest.5841EDCF40365483.quest_subtitle: "Literally hell"
+	quest.5841EDCF40365483.title: "The Nether"
 	quest.5A4DBBBF18BBA8CB.title: "attackers of the end"
 	quest.5B321B09F15938FD.quest_desc: [
 		"Changed to need to kill the Warden "

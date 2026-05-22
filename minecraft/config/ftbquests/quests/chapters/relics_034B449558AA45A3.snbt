@@ -43,6 +43,8 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0DD5EFB2C005161F"]
+			hide_until_deps_complete: true
 			id: "0F4BDAE58B321DAA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -55,10 +57,13 @@
 				id: "4109B1C338E8759E"
 				type: "dimension"
 			}]
-			x: 9.0d
-			y: -4.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
 			id: "5841EDCF40365483"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -71,8 +76,8 @@
 				id: "1B6A76D25CEB0205"
 				type: "dimension"
 			}]
-			x: 9.0d
-			y: -2.0d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			id: "1A27F00EFEB1E9B6"
@@ -88,8 +93,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -5.5d
-			y: -1.0d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			id: "0B469702A2225A19"
@@ -105,27 +110,39 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -5.5d
-			y: 2.0d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			id: "78AE12E0C2B37891"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "77AA1244C91EC55F"
-				table_id: 228458678986506364L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77AA1244C91EC55F"
+					table_id: 228458678986506364L
+					type: "random"
+				}
+				{
+					id: "68F19A07372EDDC9"
+					item: {
+						count: 1
+						id: "minecraft:wet_sponge"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "minecraft:elder_guardian"
 				id: "0532B22EB28EE4C6"
 				type: "kill"
 				value: 1L
 			}]
-			x: -5.5d
-			y: 0.5d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["0F4BDAE58B321DAA"]
+			hide_until_deps_complete: true
 			id: "37D47E7A6EFB8B1D"
 			rewards: [
 				{
@@ -161,10 +178,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["5320F36D4EBE401A"]
 			id: "7327DFEBF9C26788"
 			rewards: [
 				{
@@ -192,10 +210,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.0d
-			y: 4.0d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
+			dependencies: ["5320F36D4EBE401A"]
 			icon: {
 				components: {
 					"!ftbquests:icon": { }
@@ -216,10 +235,14 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -0.5d
-			y: 4.0d
+			x: -1.5d
+			y: 6.0d
 		}
 		{
+			dependencies: [
+				"7327DFEBF9C26788"
+				"4D24F9DC50CFA6EB"
+			]
 			id: "4470994F62B909A4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -233,10 +256,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.5d
-			y: 4.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
+			dependencies: ["4470994F62B909A4"]
 			id: "5A4DBBBF18BBA8CB"
 			rewards: [
 				{
@@ -272,10 +296,11 @@
 					value: 1L
 				}
 			]
-			x: 4.0d
-			y: 4.0d
+			x: -1.0d
+			y: 8.0d
 		}
 		{
+			dependencies: ["4470994F62B909A4"]
 			id: "7B257B35C2B7B214"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -297,10 +322,11 @@
 					value: 1L
 				}
 			]
-			x: 5.5d
-			y: 4.0d
+			x: 1.0d
+			y: 8.0d
 		}
 		{
+			dependencies: ["1F2C9F7DC5FF1775"]
 			id: "17CB4DA8B77F55F6"
 			rewards: [
 				{
@@ -328,10 +354,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.0d
-			y: 4.0d
+			x: 0.0d
+			y: 13.0d
 		}
 		{
+			dependencies: ["17CB4DA8B77F55F6"]
 			id: "35BE10F8385D57D1"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -345,10 +372,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 8.5d
-			y: 4.0d
+			x: 0.0d
+			y: 14.5d
 		}
 		{
+			dependencies: ["35BE10F8385D57D1"]
 			id: "68107556F717C804"
 			rewards: [
 				{
@@ -376,10 +404,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 0.0d
+			y: 16.0d
 		}
 		{
+			dependencies: ["68107556F717C804"]
 			id: "2ABED911FACFD4AF"
 			tasks: [{
 				entity: "minecraft:giant"
@@ -387,8 +416,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 11.5d
-			y: 4.0d
+			x: 0.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["2EF37FFDB017C969"]
@@ -408,8 +437,8 @@
 				id: "0B6B2693B3CABB70"
 				type: "dimension"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 0.0d
+			y: 11.5d
 		}
 		{
 			id: "179F1DC71086C48D"
@@ -425,8 +454,8 @@
 				id: "098F8CA71C60B309"
 				type: "dimension"
 			}]
-			x: 12.0d
-			y: 0.0d
+			x: 3.5d
+			y: 2.0d
 		}
 		{
 			id: "0DD5EFB2C005161F"
@@ -435,23 +464,33 @@
 				structure: "minecraft:stronghold"
 				type: "structure"
 			}]
-			x: 10.0d
-			y: -4.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"5A4DBBBF18BBA8CB"
 				"7B257B35C2B7B214"
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			hide_until_deps_complete: true
 			id: "2EF37FFDB017C969"
 			tasks: [{
 				id: "0D8759197229462C"
 				type: "checkmark"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["37D47E7A6EFB8B1D"]
+			id: "5320F36D4EBE401A"
+			tasks: [{
+				id: "5D2874C6940AD0B0"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
 		}
 	]
 }
