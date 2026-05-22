@@ -200,16 +200,14 @@
 			# Dimensions players aren't permitted to run teleport commands in.
 			# Default: []
 			from: [
-				"mahoutsukai"
-				":reality_marble"
-				"reality_marble"
-				"reality"
-				"marble"
+				"mahoutsukai:*"
 			]
 			
 			# Dimensions players aren't permitted to teleport into.
 			# Default: []
-			to: [ ]
+			to: [
+				"mahoutsukai:*"
+			]
 		}
 		
 		# Allows users to set 'homes', which they can then freely teleport to by using /home afterwards
