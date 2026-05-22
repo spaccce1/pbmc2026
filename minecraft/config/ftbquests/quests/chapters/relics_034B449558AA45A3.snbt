@@ -383,6 +383,11 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["2EF37FFDB017C969"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
 			id: "1F2C9F7DC5FF1775"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -424,6 +429,21 @@
 			}]
 			x: 10.0d
 			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5A4DBBBF18BBA8CB"
+				"7B257B35C2B7B214"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2EF37FFDB017C969"
+			tasks: [{
+				id: "0D8759197229462C"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
 		}
 	]
 }

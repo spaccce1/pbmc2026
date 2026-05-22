@@ -89,9 +89,36 @@ ServerEvents.recipes(event => {
 
 
     event.replaceInput({ id: 'reliquified_artifacts:mimi_dust' },
-        'minecraft:echo_shard', 'kubejs:arcane_gem',)
+        'minecraft:echo_shard', 'kubejs:medium_sapphire',)
     event.replaceInput({ id: 'reliquified_artifacts:mimi_dust' },
         'minecraft:glowstone_dust', 'apotheosis:gem_dust',)
     event.replaceInput({ id: 'reliquified_artifacts:mimi_dust' },
         'minecraft:redstone', 'apotheosis:epic_material',)
+
+    //apoth sigils-------------------------------------------------------
+    event.shaped(
+        Item.of('apotheosis:sigil_of_malice', 2), 
+        [
+            'BBB',
+            'ACA',
+            'BBB'
+        ],
+        {
+            A: 'apotheosis:gem_fused_slate', 
+            B: 'apotheosis:epic_material',
+            C: 'kubejs:blood_essence',
+        }
+    )
+    event.shaped(
+        Item.of('apotheosis:sigil_of_supremacy', 1), 
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            B: 'apotheosis:gem_fused_slate', 
+            A: 'kubejs:arcane_gem',
+        }
+    )
 })
